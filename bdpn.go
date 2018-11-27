@@ -31,7 +31,7 @@ type BDPN struct {
 func StopCheck(m string, e error, c int) {
 	fmt.Printf("%s\n", m)
 	if e != nil {
-		fmt.Printf("%s\n", e)
+		fmt.Printf("%s\n\n", e)
 	}
 	os.Exit(c)
 }
